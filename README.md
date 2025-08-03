@@ -36,7 +36,7 @@ A comprehensive collection of **116 specialized AI sub-agents** optimized for Cl
 | Category | Count | Status |
 |----------|-------|--------|
 | 🎯 Orchestration & Management | 6 | ✅ Enhanced |
-| 🏗️ Development & Architecture | 29 | ✅ Enhanced |
+| 🏗️ Development & Architecture | 30 | ✅ Enhanced |
 | 🎨 Design & UX | 7 | ✅ Enhanced |
 | 🔧 Quality Assurance & Testing | 15 | ✅ Enhanced |
 | 🔒 Security & Compliance | 4 | ✅ Enhanced |
@@ -56,6 +56,7 @@ A comprehensive collection of **116 specialized AI sub-agents** optimized for Cl
 - ✅ **Quality Gates**: Built-in validation and review processes
 - ✅ **Intelligent Coordination**: Optimal agent selection and delegation
 - ✅ **Comprehensive Documentation**: Complete setup and usage guides
+- ✅ **Wshobson Integration**: Enhanced with 6 high-priority development agents
 
 ## 📁 Project Structure
 
@@ -78,6 +79,20 @@ agents/
 ### **Development Projects**
 ```
 @supervisor-orchestrator Build a React e-commerce app with payment integration
+```
+
+### **Systems Programming**
+```
+@c-pro Optimize this C function for better performance
+@rust-pro Fix these ownership and borrowing issues in this Rust code
+@cpp-pro Refactor this C++ code to use modern patterns
+```
+
+### **Web & Enterprise Development**
+```
+@javascript-pro Refactor this JavaScript code to use modern ES6+ features
+@java-pro Create a Spring Boot microservice with parallel processing
+@sql-pro Optimize this SQL query for better performance
 ```
 
 ### **Business Projects**
@@ -111,6 +126,14 @@ agents/
 - `@test-automator` - Automated testing
 - `@react-pro` - React development with parallel optimization
 - `@backend-architect` - Backend architecture and design
+
+### **New Development Agents**
+- `@c-pro` - C programming and systems development
+- `@cpp-pro` - C++ programming and modern patterns
+- `@rust-pro` - Rust programming and memory safety
+- `@javascript-pro` - Modern JavaScript development
+- `@java-pro` - Java development and Spring Boot
+- `@sql-pro` - SQL development and database optimization
 
 ## 🎉 Success Metrics
 
