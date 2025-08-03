@@ -1,3 +1,42 @@
+#!/bin/bash
+
+echo "🧹 Cleaning up untracked files and organizing documentation..."
+
+# Remove backup files created during optimization
+echo "🗑️ Removing backup files..."
+find . -name "*.bak" -type f -delete
+echo "✅ Removed $(find . -name "*.bak" -type f | wc -l) backup files"
+
+# Create documentation directory
+mkdir -p docs
+
+# Move documentation files to docs directory
+echo "📁 Moving documentation files to docs/ directory..."
+mv CLAUDE_CODE_READY.md docs/ 2>/dev/null
+mv SETUP_GUIDE.md docs/ 2>/dev/null
+mv FINAL_OPTIMIZATION_SUMMARY.md docs/ 2>/dev/null
+mv SCRUM_MASTER_ADDED.md docs/ 2>/dev/null
+mv ORGANIZATION_COMPLETE.md docs/ 2>/dev/null
+mv FINAL_SUMMARY.md docs/ 2>/dev/null
+mv MASTER_AGENT_CATALOG.md docs/ 2>/dev/null
+mv COMPREHENSIVE_ANALYSIS.md docs/ 2>/dev/null
+mv CLAUDE.md docs/ 2>/dev/null
+mv duplicate_summary.md docs/ 2>/dev/null
+mv final_organization_report.md docs/ 2>/dev/null
+
+# Move agent files that should be in .claude/agents
+echo "📋 Moving agent files to proper locations..."
+if [ -f "ai-scrum-master.md" ]; then
+    mv ai-scrum-master.md .claude/agents/product/ 2>/dev/null
+fi
+
+if [ -f "supervisor-orchestrator.md" ]; then
+    mv supervisor-orchestrator.md .claude/agents/orchestration/ 2>/dev/null
+fi
+
+# Create a clean README for the project
+echo "📝 Creating clean project README..."
+cat > README.md << 'EOF'
 # 🚀 Claude Code Sub-Agents Collection
 
 A comprehensive collection of **110 specialized AI sub-agents** optimized for Claude Code with parallel execution capabilities, enhanced communication protocols, and comprehensive quality assurance.
@@ -11,9 +50,6 @@ A comprehensive collection of **110 specialized AI sub-agents** optimized for Cl
 
 # Optimize all agents
 ./optimize_agents.sh
-
-# Clean up untracked files (optional)
-./cleanup_untracked.sh
 
 # Validate setup
 ./.claude/validate_agents.sh
@@ -68,8 +104,6 @@ agents/
 ├── docs/                     # Documentation
 ├── setup_claude_agents.sh    # Setup script
 ├── optimize_agents.sh        # Optimization script
-├── cleanup_untracked.sh      # Cleanup script
-├── .gitignore               # Git ignore file
 └── README.md                # This file
 ```
 
@@ -97,20 +131,12 @@ agents/
 
 ## 📋 Available Commands
 
-### **Setup & Management**
-- `./setup_claude_agents.sh` - Initial setup of all agents
-- `./optimize_agents.sh` - Optimize all agents with parallel execution
-- `./cleanup_untracked.sh` - Clean up untracked files and organize documentation
 - `./.claude/discover_agents.sh` - Discover all agents
 - `./.claude/validate_agents.sh` - Validate agent setup
-
-### **Agent Usage**
 - `@supervisor-orchestrator` - Master coordinator for complex projects
 - `@ai-scrum-master` - Automated sprint management
 - `@code-reviewer` - Code review and quality assurance
 - `@test-automator` - Automated testing
-- `@react-pro` - React development with parallel optimization
-- `@backend-architect` - Backend architecture and design
 
 ## 🎉 Success Metrics
 
@@ -119,14 +145,60 @@ agents/
 - **Quality Score**: >95% quality standards maintained
 - **Coordination Effectiveness**: >85% effective agent coordination
 
-## 📚 Documentation
-
-All detailed documentation is available in the `docs/` directory:
-- Setup guides and tutorials
-- Optimization reports and analysis
-- Usage examples and best practices
-- Agent specifications and capabilities
-
 ---
 
 **🎉 Ready to use with 110 optimized agents featuring parallel execution, enhanced communication, and comprehensive quality assurance! 🚀**
+EOF
+
+# Create a .gitignore file
+echo "📝 Creating .gitignore file..."
+cat > .gitignore << 'EOF'
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
+EOF
+
+echo "✅ Cleanup complete!"
+echo
+echo "📊 Cleanup Summary:"
+echo "  - Removed $(find . -name "*.bak" -type f | wc -l) backup files"
+echo "  - Moved documentation to docs/ directory"
+echo "  - Organized agent files in proper locations"
+echo "  - Created clean project README"
+echo "  - Added .gitignore file"
+echo
+echo "📁 New structure:"
+echo "  - docs/ - All documentation files"
+echo "  - .claude/agents/ - All 110 optimized agents"
+echo "  - README.md - Clean project overview"
+echo
+echo "🎯 Ready for production use!" 

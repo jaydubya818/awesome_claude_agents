@@ -1,0 +1,31 @@
+{
+  "project": {
+    "name": "Comprehensive Sub-Agent Collection",
+    "description": "108 specialized AI sub-agents for Claude Code workflows",
+    "version": "1.0.0"
+  },
+  "agents": {
+    "directory": ".claude/agents",
+    "index_file": ".claude/agents/index.md",
+    "auto_discovery": true,
+    "categories": [
+      "orchestration",
+      "development", 
+      "design",
+      "quality",
+      "security",
+      "data-ai",
+      "devops",
+      "documentation",
+      "product",
+      "marketing",
+      "operations",
+      "specialized"
+    ]
+  },
+  "workflows": {
+    "default_orchestrator": "supervisor-orchestrator",
+    "auto_delegation": true,
+    "quality_gates": true
+  }
+}

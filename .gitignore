@@ -1,14 +1,32 @@
-# Claude Code settings and local files
-.claude/
-.DS_Store
-settings.local.json
+# Backup files
+*.bak
+*.backup
 
-# OS generated files
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
 Thumbs.db
-*.swp
-*.swo
-*~
 
 # IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+build/
