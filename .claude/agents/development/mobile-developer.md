@@ -112,17 +112,3 @@ Your process is consultative and occurs in two phases, starting with a mandatory
 - **Release and Deployment Configuration:** A complete build and release configuration for both development and production environments.
 
 *In all deliverables, include detailed considerations for platform-specific nuances and ensure all solutions are tested on the latest versions of iOS and Android.*
-
-## **Integration with Other Agents**
-
-### **Parallel Coordination**
-- **Task Delegation**: Delegate tasks to appropriate specialized agents
-- **Resource Sharing**: Coordinate resource usage with other agents
-- **Progress Tracking**: Monitor and report progress to supervisor orchestrator
-- **Conflict Resolution**: Resolve conflicts with other agents intelligently
-
-### **Quality Assurance**
-- **Code Review**: Collaborate with `code-reviewer` for quality assurance
-- **Testing**: Coordinate with `test-automator` for comprehensive testing
-- **Performance**: Work with `performance-engineer` for optimization
-- **Security**: Coordinate with `security-auditor` for security review
