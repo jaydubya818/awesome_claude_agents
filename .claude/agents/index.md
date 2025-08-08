@@ -1,42 +1,52 @@
 # Claude Code Sub-Agent Index
 
-## 🎯 Orchestration & Management (5 agents)
+## 🎯 Orchestration & Management (8 agents)
 - agent-organizer
 - context-manager
 - project-analyst
 - team-configurator
 - tech-lead-orchestrator
+- agent-generator
+- error-detective
+- documentation-writer
 
-## 🏗️ Development & Architecture (24 agents)
-- ai-engineer
+## 🏗️ Development & Architecture (32 agents)
 - api-architect
 - api-developer
 - backend-architect
 - backend-developer
+- blockchain-developer
 - code-archaeologist
+- database-specialist
 - electorn-pro
 - frontend-developer
+- frontend-specialist
 - full-stack-developer
 - golang-pro
 - graphql-architect
+- java-enterprise
+- javascript-pro
 - legacy-modernizer
 - mobile-app-builder
 - mobile-developer
 - nextjs-pro
 - python-pro
-- rapid-prototyper
 - react-component-architect
 - react-nextjs-expert
 - react-pro
 - refactor
+- rust-pro
 - shadcn-ui-builder
 - typescript-pro
 - vue-component-architect
 - vue-nuxt-expert
+- vue-specialist
 - vue-state-manager
+- angular-expert
 
-## 🎨 Design & UX (7 agents)
+## 🎨 Design & UX (8 agents)
 - brand-guardian
+- content-strategist
 - dx-optimizer
 - ui-designer
 - ux-designer
@@ -44,12 +54,14 @@
 - visual-storyteller
 - whimsy-injector
 
-## 🔧 Quality Assurance & Testing (15 agents)
+## 🔧 Quality Assurance & Testing (18 agents)
+- accessibility-auditor
 - api-tester
 - architect-review
 - best-practices
 - code-reviewer
 - database-optimizer
+- e2e-test-specialist
 - performance-benchmarker
 - performance-engineer
 - performance-optimizer
@@ -57,6 +69,7 @@
 - qa-expert
 - tdd-specialist
 - test-automator
+- test-engineer
 - test-results-analyzer
 - test-runner
 - test-writer-fixer
@@ -67,23 +80,29 @@
 - security-auditor
 - security-scanner
 
-## 📊 Data & AI (4 agents)
+## 📊 Data & AI (7 agents)
+- ai-engineer
+- analytics-engineer
 - data-engineer
 - data-scientist
 - ml-engineer
+- mlops-engineer
 - prompt-engineer
 
-## 🚀 DevOps & Infrastructure (13 agents)
+## 🚀 DevOps & Infrastructure (16 agents)
 - cloud-architect
 - deployment-engineer
+- deployment-manager
 - devops-automator
 - devops-engineer
 - django-api-developer
 - django-backend-expert
 - django-orm-expert
 - infrastructure-maintainer
+- kubernetes-expert
 - laravel-backend-expert
 - laravel-eloquent-expert
+- monitoring-specialist
 - rails-activerecord-expert
 - rails-api-developer
 - rails-backend-expert
@@ -119,19 +138,33 @@
 ## 🏢 Operations (5 agents)
 - analytics-reporter
 - finance-tracker
-- infrastructure-maintainer
+- infrastructure-maintainer-studio
 - legal-compliance-checker
 - support-responder
 
-## 🎭 Specialized & Utility (9 agents)
+## 🎭 Specialized & Utility (16 agents)
 - creating-agents
 - dependencies
+- ecommerce-expert
+- embedded-engineer
+- fintech-specialist
+- game-developer
+- healthcare-dev
+- iot-engineer
 - joker-bonus
 - joker
+- open-swe-agent
 - studio-coach-bonus
 - studio-coach
 - tailwind-css-expert
 - tool-evaluator
 - workflow-optimizer
 
-Total: 108 specialized sub-agents
+## 🏢 Business (5 agents)
+- api-designer
+- business-analyst
+- product-strategist
+- requirements-analyst
+- technical-writer
+
+Total: 141 specialized sub-agents

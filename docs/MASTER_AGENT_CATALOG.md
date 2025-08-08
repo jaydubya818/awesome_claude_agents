@@ -1,51 +1,58 @@
 # Master Agent Catalog
 
 ## Overview
-This catalog contains **119 unique agents** organized by functional categories. Each agent is properly categorized and available as individual `.md` files in the organized directory structure.
+This catalog contains **141 unique agents** organized by functional categories. Each agent is properly categorized and available as individual `.md` files in the organized directory structure.
 
 ## 📊 Agent Distribution
 
 | Category | Count | Percentage |
 |----------|-------|------------|
-| Development & Architecture | 21 | 17.6% |
-| Quality Assurance & Testing | 13 | 10.9% |
-| DevOps & Infrastructure | 12 | 10.1% |
-| Design & UX | 8 | 6.7% |
-| Product & Business | 7 | 5.9% |
-| Marketing & Growth | 7 | 5.9% |
-| Orchestration & Management | 5 | 4.2% |
-| Data & AI | 5 | 4.2% |
-| Documentation & Communication | 5 | 4.2% |
-| Studio Operations | 5 | 4.2% |
-| Specialized & Utility | 6 | 5.0% |
-| Security & Compliance | 3 | 2.5% |
-| **Total** | **119** | **100%** |
+| Development & Architecture | 32 | 22.7% |
+| Quality Assurance & Testing | 18 | 12.8% |
+| DevOps & Infrastructure | 16 | 11.3% |
+| Specialized & Utility | 16 | 11.3% |
+| Product & Business | 14 | 9.9% |
+| Design & UX | 8 | 5.7% |
+| Orchestration & Management | 8 | 5.7% |
+| Data & AI | 7 | 5.0% |
+| Marketing & Growth | 7 | 5.0% |
+| Documentation & Communication | 6 | 4.3% |
+| Studio Operations | 5 | 3.5% |
+| Security & Compliance | 4 | 2.8% |
+| **Total** | **141** | **100%** |
 
 ## 📚 Complete Agent Directory
 
-### 🎯 Orchestration & Management (5 agents)
+### 🎯 Orchestration & Management (8 agents)
 - **agent-organizer** - Master orchestrator for complex multi-agent tasks
 - **context-manager** - Context management and project state coordination
 - **tech-lead-orchestrator** - Senior technical lead for complex projects
 - **project-analyst** - Technology stack detection and agent routing
 - **team-configurator** - AI team setup and optimal agent mapping
+- **agent-generator** - Generates new agents from specifications
+- **error-detective** - Analyzes and debugs errors in agent interactions
+- **documentation-writer** - Writes documentation for agents
 
-### 🏗️ Development & Architecture (21 agents)
+### 🏗️ Development & Architecture (32 agents)
 **Backend & API:**
 - **backend-architect** - Scalable API and server system design
 - **backend-developer** - General backend development
 - **api-architect** - API design and architecture
 - **graphql-architect** - GraphQL schema and resolver design
 - **full-stack-developer** - End-to-end development expertise
+- **java-enterprise** - Java Enterprise Edition development
 
 **Frontend & UI:**
 - **frontend-developer** - User interface development
+- **frontend-specialist** - Specialized frontend development
 - **react-pro** - React.js expert development
 - **react-component-architect** - React component architecture
 - **react-nextjs-expert** - Next.js and React optimization
 - **vue-component-architect** - Vue.js component design
 - **vue-nuxt-expert** - Nuxt.js and Vue optimization
 - **vue-state-manager** - Vue state management patterns
+- **vue-specialist** - Vue.js specialist
+- **angular-expert** - Angular expert development
 
 **Framework Specialists:**
 - **golang-pro** - Go language development
@@ -55,10 +62,16 @@ This catalog contains **119 unique agents** organized by functional categories. 
 - **electorn-pro** - Electron desktop app development
 - **mobile-developer** - Mobile app development
 - **mobile-app-builder** - Native iOS/Android development
+- **rust-pro** - Rust programming language expert
+- **javascript-pro** - JavaScript programming language expert
 
 **Legacy & Modernization:**
 - **legacy-modernizer** - Legacy code modernization
 - **code-archaeologist** - Legacy code analysis and refactoring
+
+**Specialized Development:**
+- **blockchain-developer** - Blockchain and smart contract development
+- **database-specialist** - Database design and optimization
 
 ### 🎨 Design & UX (8 agents)
 **Visual Design:**
@@ -71,9 +84,9 @@ This catalog contains **119 unique agents** organized by functional categories. 
 **Creative & Innovation:**
 - **whimsy-injector** - Creative enhancement and fun elements
 - **dx-optimizer** - Developer experience optimization
-- **rapid-prototyper** - MVP development in days
+- **content-strategist** - Content strategy and planning
 
-### 🔧 Quality Assurance & Testing (13 agents)
+### 🔧 Quality Assurance & Testing (18 agents)
 **Testing & Validation:**
 - **test-automator** - Automated testing implementation
 - **test-writer-fixer** - Test writing and bug fixing
@@ -81,6 +94,8 @@ This catalog contains **119 unique agents** organized by functional categories. 
 - **performance-benchmarker** - Performance testing
 - **test-results-analyzer** - Test result analysis
 - **qa-expert** - Quality assurance expertise
+- **e2e-test-specialist** - End-to-end testing specialist
+- **test-engineer** - Test engineering and planning
 
 **Code Review & Analysis:**
 - **code-reviewer** - Code review and best practices
@@ -93,25 +108,34 @@ This catalog contains **119 unique agents** organized by functional categories. 
 - **database-optimizer** - Database performance optimization
 - **postgres-pro** - PostgreSQL expert optimization
 
-### 🔒 Security & Compliance (3 agents)
+**Accessibility:**
+- **accessibility-auditor** - Accessibility auditing and validation
+
+### 🔒 Security & Compliance (4 agents)
 - **security-auditor** - Security auditing and validation
 - **incident-responder** - Security incident response
 - **devops-incident-responder** - DevOps security incidents
+- **security-scanner** - Automated security scanning
 
-### 📊 Data & AI (5 agents)
+### 📊 Data & AI (7 agents)
 **AI & Machine Learning:**
 - **ai-engineer** - AI/ML feature integration
 - **ml-engineer** - Machine learning engineering
 - **prompt-engineer** - Prompt engineering and optimization
 - **data-scientist** - Data science and analytics
 - **data-engineer** - Data pipeline and infrastructure
+- **mlops-engineer** - MLOps engineering
+- **analytics-engineer** - Analytics engineering
 
-### 🚀 DevOps & Infrastructure (12 agents)
+### 🚀 DevOps & Infrastructure (16 agents)
 **Deployment & Operations:**
 - **deployment-engineer** - Deployment automation
 - **devops-automator** - DevOps automation
 - **cloud-architect** - Cloud infrastructure design
 - **infrastructure-maintainer** - Infrastructure maintenance
+- **monitoring-specialist** - Monitoring and observability
+- **deployment-manager** - Deployment management and strategy
+- **kubernetes-expert** - Kubernetes expert
 
 **Framework-Specific DevOps:**
 - **laravel-backend-expert** - Laravel backend development
@@ -123,24 +147,32 @@ This catalog contains **119 unique agents** organized by functional categories. 
 - **rails-api-developer** - Rails API development
 - **rails-activerecord-expert** - Rails ActiveRecord optimization
 
-### 📝 Documentation & Communication (5 agents)
+### 📝 Documentation & Communication (6 agents)
 - **documentation-expert** - Technical documentation
 - **api-documenter** - API documentation
 - **documentation-specialist** - Documentation creation
 - **content-creator** - Content creation
 - **debugger** - Debugging and troubleshooting
+- **doc-writer** - General documentation writing
 
-### 🎯 Product & Business (7 agents)
+### 🎯 Product & Business (14 agents)
 **Product Management:**
 - **product-manager** - Product management
 - **feedback-synthesizer** - User feedback analysis
 - **sprint-prioritizer** - Sprint planning and prioritization
 - **trend-researcher** - Market trend analysis
+- **product-strategist** - Product strategy and vision
 
 **Project Management:**
 - **experiment-tracker** - Experiment tracking
 - **project-shipper** - Project delivery
 - **studio-producer** - Studio production management
+
+**Business Analysis:**
+- **business-analyst** - Business analysis and requirements gathering
+- **requirements-analyst** - Requirements analysis and documentation
+- **technical-writer** - Technical writing for business audiences
+- **api-designer** - API design from a business perspective
 
 ### 📈 Marketing & Growth (7 agents)
 - **app-store-optimizer** - App store optimization
@@ -157,7 +189,7 @@ This catalog contains **119 unique agents** organized by functional categories. 
 - **support-responder** - Customer support
 - **tool-evaluator** - Tool evaluation
 
-### 🎭 Specialized & Utility (6 agents)
+### 🎭 Specialized & Utility (16 agents)
 **Analysis & Optimization:**
 - **workflow-optimizer** - Workflow optimization
 - **dependencies** - Dependency management
@@ -169,6 +201,13 @@ This catalog contains **119 unique agents** organized by functional categories. 
 
 **Technical Specialists:**
 - **tailwind-css-expert** - Tailwind CSS expertise
+- **game-developer** - Game development
+- **iot-engineer** - IoT engineering
+- **embedded-engineer** - Embedded systems engineering
+- **fintech-specialist** - FinTech specialist
+- **healthcare-dev** - Healthcare technology development
+- **ecommerce-expert** - E-commerce expert
+- **open-swe-agent** - Autonomous coding agent
 
 ## 📁 Directory Structure
 
@@ -179,20 +218,27 @@ agents/
 │   ├── context-manager.md
 │   ├── tech-lead-orchestrator.md
 │   ├── project-analyst.md
-│   └── team-configurator.md
+│   ├── team-configurator.md
+│   ├── agent-generator.md
+│   ├── error-detective.md
+│   └── documentation-writer.md
 ├── development/
 │   ├── backend-architect.md
 │   ├── backend-developer.md
 │   ├── api-architect.md
 │   ├── graphql-architect.md
 │   ├── full-stack-developer.md
+│   ├── java-enterprise.md
 │   ├── frontend-developer.md
+│   ├── frontend-specialist.md
 │   ├── react-pro.md
 │   ├── react-component-architect.md
 │   ├── react-nextjs-expert.md
 │   ├── vue-component-architect.md
 │   ├── vue-nuxt-expert.md
 │   ├── vue-state-manager.md
+│   ├── vue-specialist.md
+│   ├── angular-expert.md
 │   ├── golang-pro.md
 │   ├── python-pro.md
 │   ├── nextjs-pro.md
@@ -200,8 +246,12 @@ agents/
 │   ├── electorn-pro.md
 │   ├── mobile-developer.md
 │   ├── mobile-app-builder.md
+│   ├── rust-pro.md
+│   ├── javascript-pro.md
 │   ├── legacy-modernizer.md
-│   └── code-archaeologist.md
+│   ├── code-archaeologist.md
+│   ├── blockchain-developer.md
+│   └── database-specialist.md
 ├── design/
 │   ├── ui-designer.md
 │   ├── ux-designer.md
@@ -210,7 +260,7 @@ agents/
 │   ├── brand-guardian.md
 │   ├── whimsy-injector.md
 │   ├── dx-optimizer.md
-│   └── rapid-prototyper.md
+│   └── content-strategist.md
 ├── quality/
 │   ├── test-automator.md
 │   ├── test-writer-fixer.md
@@ -218,28 +268,37 @@ agents/
 │   ├── performance-benchmarker.md
 │   ├── test-results-analyzer.md
 │   ├── qa-expert.md
+│   ├── e2e-test-specialist.md
+│   ├── test-engineer.md
 │   ├── code-reviewer.md
 │   ├── architect-review.md
 │   ├── best-practices.md
 │   ├── performance-engineer.md
 │   ├── performance-optimizer.md
 │   ├── database-optimizer.md
-│   └── postgres-pro.md
+│   ├── postgres-pro.md
+│   └── accessibility-auditor.md
 ├── security/
 │   ├── security-auditor.md
 │   ├── incident-responder.md
-│   └── devops-incident-responder.md
+│   ├── devops-incident-responder.md
+│   └── security-scanner.md
 ├── data-ai/
 │   ├── ai-engineer.md
 │   ├── ml-engineer.md
 │   ├── prompt-engineer.md
 │   ├── data-scientist.md
-│   └── data-engineer.md
+│   ├── data-engineer.md
+│   ├── mlops-engineer.md
+│   └── analytics-engineer.md
 ├── devops/
 │   ├── deployment-engineer.md
 │   ├── devops-automator.md
 │   ├── cloud-architect.md
 │   ├── infrastructure-maintainer.md
+│   ├── monitoring-specialist.md
+│   ├── deployment-manager.md
+│   ├── kubernetes-expert.md
 │   ├── laravel-backend-expert.md
 │   ├── laravel-eloquent-expert.md
 │   ├── django-backend-expert.md
@@ -253,7 +312,8 @@ agents/
 │   ├── api-documenter.md
 │   ├── documentation-specialist.md
 │   ├── content-creator.md
-│   └── debugger.md
+│   ├── debugger.md
+│   └── doc-writer.md
 ├── product/
 │   ├── product-manager.md
 │   ├── feedback-synthesizer.md
@@ -262,6 +322,12 @@ agents/
 │   ├── experiment-tracker.md
 │   ├── project-shipper.md
 │   └── studio-producer.md
+├── business/
+│   ├── product-strategist.md
+│   ├── business-analyst.md
+│   ├── technical-writer.md
+│   ├── requirements-analyst.md
+│   └── api-designer.md
 ├── marketing/
 │   ├── app-store-optimizer.md
 │   ├── growth-hacker.md
@@ -281,7 +347,14 @@ agents/
     ├── creating-agents.md
     ├── joker.md
     ├── studio-coach.md
-    └── tailwind-css-expert.md
+    ├── tailwind-css-expert.md
+    ├── game-developer.md
+    ├── iot-engineer.md
+    ├── embedded-engineer.md
+    ├── fintech-specialist.md
+    ├── healthcare-dev.md
+    ├── ecommerce-expert.md
+    └── open-swe-agent.md
 ```
 
 ## 🎯 Quick Reference
@@ -340,4 +413,4 @@ agents/
 
 ---
 
-**Happy coding with your comprehensive AI specialist team! 🚀** 
+**Happy coding with your comprehensive AI specialist team! 🚀**
