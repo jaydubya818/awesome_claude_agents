@@ -1,0 +1,104 @@
+{
+  "agent_tests": [
+    {
+      "agent_name": "ScrumMasterAgent",
+      "prompt": "Run a daily standup.",
+      "expected_keywords": ["standup", "sprint", "blocker", "impediment"]
+    },
+    {
+      "agent_name": "SprintPlanningAgent",
+      "prompt": "Generate a sprint plan for a new project.",
+      "expected_keywords": ["goal", "objective", "capacity", "developer"]
+    },
+    {
+      "agent_name": "CodeReviewerAgent",
+      "prompt": "Review the following Python code for quality, security, and performance:\n\n```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n```",
+      "expected_keywords": ["code quality", "security", "performance", "recommendations"]
+    },
+    {
+      "agent_name": "MlopsEngineerAgent",
+      "prompt": "Explain the concept of MLOps and its importance.",
+      "expected_keywords": ["mlops", "pipeline", "deployment", "monitoring"]
+    },
+    {
+      "agent_name": "AiEngineerAgent",
+      "prompt": "Describe the key components of a production ML system.",
+      "expected_keywords": ["data pipeline", "model training", "monitoring", "deployment"]
+    },
+    {
+      "agent_name": "AnalyticsEngineerAgent",
+      "prompt": "Explain the role of an analytics engineer in a data team.",
+      "expected_keywords": ["data modeling", "dbt", "BI tools", "data quality"]
+    },
+    {
+      "agent_name": "DataScientistAgent",
+      "prompt": "Perform a statistical analysis on a given dataset.",
+      "expected_keywords": ["statistical analysis", "machine learning", "data visualization", "experimental design"]
+    },
+    {
+      "agent_name": "PromptEngineerAgent",
+      "prompt": "Explain the concept of prompt engineering and its importance.",
+      "expected_keywords": ["prompt", "LLM", "optimization", "RAG"]
+    },
+    {
+      "agent_name": "DataEngineerAgent",
+      "prompt": "Describe the typical responsibilities of a data engineer.",
+      "expected_keywords": ["ETL", "pipeline", "data warehouse", "big data"]
+    },
+    {
+      "agent_name": "AccessibilityAuditorAgent",
+      "prompt": "Perform an accessibility audit of a web page.",
+      "expected_keywords": ["WCAG", "screen reader", "keyboard navigation", "color contrast"]
+    },
+    {
+      "agent_name": "E2ETestSpecialistAgent",
+      "prompt": "Generate an end-to-end test plan for a web application.",
+      "expected_keywords": ["Playwright", "Cypress", "test automation", "CI/CD"]
+    },
+    {
+      "agent_name": "TestEngineerAgent",
+      "prompt": "Describe a comprehensive testing strategy for a new software product.",
+      "expected_keywords": ["unit testing", "integration testing", "E2E testing", "test automation"]
+    },
+    {
+      "agent_name": "SecurityAuditorAgent",
+      "prompt": "Perform a security audit of a web application.",
+      "expected_keywords": ["vulnerability", "security", "OWASP", "compliance"]
+    },
+    {
+      "agent_name": "PerformanceTesterAgent",
+      "prompt": "Design a load test plan for an e-commerce website.",
+      "expected_keywords": ["load testing", "stress testing", "performance monitoring", "K6"]
+    },
+    {
+      "agent_name": "BackendArchitectAgent",
+      "prompt": "Design a scalable microservices architecture for a new social media platform.",
+      "expected_keywords": ["microservices", "API design", "database schema", "scalability"]
+    },
+    {
+      "agent_name": "AngularExpertAgent",
+      "prompt": "Explain the benefits of Angular standalone components and signals.",
+      "expected_keywords": ["Angular", "standalone components", "signals", "RxJS"]
+    },
+    {
+      "agent_name": "FrontendSpecialistAgent",
+      "prompt": "Explain the best practices for optimizing web performance.",
+      "expected_keywords": ["web performance", "optimization", "lazy loading", "code splitting"]
+    },
+    {
+      "agent_name": "FullstackEngineerAgent",
+      "prompt": "Describe the typical tech stack for a modern full-stack web application.",
+      "expected_keywords": ["frontend", "backend", "database", "API"]
+    },
+    {
+      "agent_name": "GolangProAgent",
+      "prompt": "Explain Go's concurrency model using goroutines and channels.",
+      "expected_keywords": ["Go", "goroutines", "channels", "concurrency"]
+    },
+    {
+      "agent_name": "JavaEnterpriseAgent",
+      "prompt": "Explain the core concepts of Spring Boot for enterprise applications.",
+      "expected_keywords": ["Spring Boot", "microservices", "JVM", "enterprise applications"]
+    }
+  ]
+}
