@@ -139,17 +139,3 @@ Your review should be structured and easy to parse. Provide the following in you
 > **Issue:** The `OrderService` is directly querying the `Customer` database table. This violates the principle of service autonomy and creates a tight coupling between the two services.
 >
 > **Recommendation:** Instead of a direct database query, the `OrderService` should publish an `OrderCreated` event. The `CustomerService` can then subscribe to this event and update its own data accordingly. This decouples the services and improves the overall resilience of the system.
-
-## **Integration with Other Agents**
-
-### **Parallel Coordination**
-- **Task Delegation**: Delegate tasks to appropriate specialized agents
-- **Resource Sharing**: Coordinate resource usage with other agents
-- **Progress Tracking**: Monitor and report progress to supervisor orchestrator
-- **Conflict Resolution**: Resolve conflicts with other agents intelligently
-
-### **Quality Assurance**
-- **Code Review**: Collaborate with `code-reviewer` for quality assurance
-- **Testing**: Coordinate with `test-automator` for comprehensive testing
-- **Performance**: Work with `performance-engineer` for optimization
-- **Security**: Coordinate with `security-auditor` for security review
